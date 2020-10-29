@@ -1,0 +1,4 @@
+*.pyc
+.docker/pg-data
+db.sqlite3
+__pycache__
