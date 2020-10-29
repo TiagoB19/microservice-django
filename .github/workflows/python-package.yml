@@ -36,8 +36,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        python3 manage.py test
     - name: Migrate
       run: |
-        python manage.py migrate
+        python3 manage.py migrate
       
