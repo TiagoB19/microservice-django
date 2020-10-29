@@ -1,0 +1,1 @@
+![Python package](https://github.com/TiagoB19/microservice-django/workflows/Python%20package/badge.svg?branch=master)
